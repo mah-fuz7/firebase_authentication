@@ -7,6 +7,7 @@ import { toast } from "react-toastify";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useState } from "react";
 
+
 const Sign_in = () => {
   // const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
@@ -113,6 +114,7 @@ const Sign_in = () => {
                   <button type="submit" className="btn btn-neutral mt-4 w-full">
                     Sign in
                   </button>
+                  
                 </fieldset>
               </form>
             </div>
